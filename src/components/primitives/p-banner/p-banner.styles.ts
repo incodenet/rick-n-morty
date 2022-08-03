@@ -2,7 +2,7 @@ import { css } from '@emotion/css';
 import { fonts } from '../../../assets/css/theme';
 
 export const banner = css({
-    height: '30vh',
+    height: '25vh',
     position: 'relative'
 });
 

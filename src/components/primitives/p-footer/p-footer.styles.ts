@@ -1,7 +1,7 @@
 import { css } from "@emotion/css";
 
 export const root = css({
-    backgroundColor: '#c6c6c6',
+    backgroundColor: '#ebebeb',
     display: 'grid',
     justifyContent: 'center',
     textAlign: 'center',
