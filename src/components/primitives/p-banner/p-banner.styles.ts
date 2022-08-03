@@ -11,6 +11,7 @@ export const bannerTitle = css({
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    fontSize: '3em',
-    fontFamily: fonts.semiBold
+    fontSize: 'calc(20px + (36 - 20) * ((100vw - 300px) / (1920 - 300)))',
+    fontFamily: fonts.semiBold,
+    textAlign: 'center'
 });

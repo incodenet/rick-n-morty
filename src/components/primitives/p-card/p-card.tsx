@@ -1,10 +1,10 @@
 import { PCardProps } from "./p-card-types";
 import { card, title, caption, status } from "./p-card.styles";
 
-export const PCard = ({ itemEntity, episode }: PCardProps) => {
+export const PCard = ({ itemEntity, firstSeenEpisode }: PCardProps) => {
     return (
         <div className={card}>
-            <img src={itemEntity?.image} alt="" width="100%" height="100%" />
+            <img src={itemEntity?.image} alt="" width="100%" height={230} />
             <div className={caption}>
                 <h3 className={title}>
                     {itemEntity?.name}
@@ -13,18 +13,19 @@ export const PCard = ({ itemEntity, episode }: PCardProps) => {
                     <div className={`indicator status-${itemEntity?.status?.toLowerCase()}`}></div>
                     {itemEntity?.status} - {itemEntity?.species}
                 </div>
-                <ul>
+                {itemEntity?.location?.name && <ul>
                     <li>Last known location:</li>
                     <li>
                         {itemEntity?.location?.name}
                     </li>
-                </ul>
-                <ul>
+                </ul>}
+                {firstSeenEpisode?.name && <ul>
                     <li>First seen in:</li>
                     <li>
-                        {episode?.name}
+                        {firstSeenEpisode?.name}
                     </li>
-                </ul>
+                </ul>}
+
             </div>
         </div>
     )

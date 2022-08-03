@@ -1,6 +1,6 @@
 export type Character = {
     id?: number,
-    created?: string,
+    created?: Date,
     image?: string,
     name?: string,
     status?: string,
@@ -21,4 +21,24 @@ export type Loaction = {
 export type Origin = {
     name?: string,
     url?: string
+}
+
+export type Episode = {
+    air_date?: string,
+    characters?: string[],
+    created?: Date,
+    episode?: string,
+    id?: number,
+    name?: string,
+    url?: string
+}
+
+export type Location = {
+    id?: number,
+    name?: string,
+    type?: string,
+    dimension?: string,
+    residents?: string[],
+    url?: string,
+    created?: Date
 }

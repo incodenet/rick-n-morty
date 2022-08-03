@@ -3,7 +3,7 @@ import { fonts } from '../../../assets/css/theme';
 
 export const card = css({
     display: 'grid',
-    gridTemplateColumns: '35% 1fr',
+    gridTemplateRows: 'auto 1fr',
     backgroundColor: 'rgb(72 72 72)',
     borderRadius: '12px',
     overflow: 'hidden',
@@ -18,6 +18,7 @@ export const caption = css({
     color: 'white',
     display: 'grid',
     gap: '15px',
+    alignContent: 'start',
 
     ul: {
         margin: 0,
@@ -29,7 +30,8 @@ export const caption = css({
 
         li: {
             '&:first-child': {
-                color: '#76c3e9'
+                color: '#76c3e9',
+                fontSize: '16px'
             }
         }
     }

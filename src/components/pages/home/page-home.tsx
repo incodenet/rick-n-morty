@@ -23,7 +23,7 @@ export const PageHome = () => {
 
         (async () => {
             try {
-                const { data } = await getCharactersService();
+                const { data } = await getCharactersService({ page: 1 });
 
                 setCharacters(data?.results);
             } catch (e) {
@@ -41,7 +41,7 @@ export const PageHome = () => {
                         <CCard
                             key={`char-${itemEntity?.id}`}
                             itemEntity={itemEntity}
-                            episode={episodes.find(ep => ep['url'] === itemEntity?.episode![0])} />)
+                            firstSeenEpisode={episodes.find(ep => ep['url'] === itemEntity?.episode![0])} />)
 
                 }
             </div>

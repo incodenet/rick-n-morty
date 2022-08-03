@@ -1,7 +1,7 @@
-import { Character } from "../../../types/custom";
+import { Character, Episode } from "../../../types/custom";
 
 export type PCardProps = {
     className?: string;
     itemEntity?: Character;
-    episode?: any;
+    firstSeenEpisode?: Episode;
 };
