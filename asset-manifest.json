@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.58462fbc.css",
-    "main.js": "/react-gh-pages/static/js/main.8927af72.js",
-    "static/media/logo.svg": "/react-gh-pages/static/media/logo.96cbb9f2b684486c0ab6b03f27ccb977.svg",
-    "static/media/rick-n-morty.svg": "/react-gh-pages/static/media/rick-n-morty.8079b4737285f7b94fa4f68d1d1da357.svg",
-    "static/media/github.svg": "/react-gh-pages/static/media/github.416e8876708c567f0bef38fa7655a671.svg",
-    "index.html": "/react-gh-pages/index.html",
-    "static/media/close.svg": "/react-gh-pages/static/media/close.7b42150ccaf16256b33f73ea253b5581.svg",
-    "main.58462fbc.css.map": "/react-gh-pages/static/css/main.58462fbc.css.map",
-    "main.8927af72.js.map": "/react-gh-pages/static/js/main.8927af72.js.map"
+    "main.css": "/rick-n-morty/static/css/main.58462fbc.css",
+    "main.js": "/rick-n-morty/static/js/main.aeb97ca3.js",
+    "static/media/logo.svg": "/rick-n-morty/static/media/logo.96cbb9f2b684486c0ab6b03f27ccb977.svg",
+    "static/media/rick-n-morty.svg": "/rick-n-morty/static/media/rick-n-morty.8079b4737285f7b94fa4f68d1d1da357.svg",
+    "static/media/github.svg": "/rick-n-morty/static/media/github.416e8876708c567f0bef38fa7655a671.svg",
+    "index.html": "/rick-n-morty/index.html",
+    "static/media/close.svg": "/rick-n-morty/static/media/close.7b42150ccaf16256b33f73ea253b5581.svg",
+    "main.58462fbc.css.map": "/rick-n-morty/static/css/main.58462fbc.css.map",
+    "main.aeb97ca3.js.map": "/rick-n-morty/static/js/main.aeb97ca3.js.map"
   },
   "entrypoints": [
     "static/css/main.58462fbc.css",
-    "static/js/main.8927af72.js"
+    "static/js/main.aeb97ca3.js"
   ]
 }
