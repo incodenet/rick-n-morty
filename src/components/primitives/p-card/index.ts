@@ -1,1 +1,1 @@
-export { PCard } from "./p-card"
+export {PCard} from './p-card';

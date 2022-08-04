@@ -1,1 +1,1 @@
-export { PBanner } from "./p-banner"
+export {PBanner} from './p-banner';

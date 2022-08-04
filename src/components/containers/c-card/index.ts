@@ -1,1 +1,1 @@
-export { CCard } from "./c-card";
+export {CCard} from './c-card';

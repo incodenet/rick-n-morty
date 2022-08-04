@@ -1,1 +1,1 @@
-export { CApp } from './c-app';
+export {CApp} from './c-app';

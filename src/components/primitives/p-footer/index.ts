@@ -1,1 +1,1 @@
-export { PFooter } from "./p-footer"
+export {PFooter} from './p-footer';

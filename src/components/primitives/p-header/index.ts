@@ -1,1 +1,1 @@
-export { PHeader } from "./p-header"
+export {PHeader} from './p-header';
