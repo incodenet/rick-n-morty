@@ -9,7 +9,7 @@ export const wrapper = css({
 
 export const listing = css({
   display: 'grid',
-  gridTemplateColumns: 'repeat(auto-fill, minmax(230px, 1fr))',
+  gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))',
   gap: '30px',
 });
 
@@ -25,10 +25,7 @@ export const notFound = css({
 
 export const filterWrapper = css({
   display: 'grid',
-  gridAutoFlow: 'column',
-  justifyContent: 'start',
-  alignItems: 'center',
-  gap: '30px',
+  gap: '20px',
   marginBottom: 25,
 });
 
@@ -39,7 +36,7 @@ export const filterTitle = css({
 
 export const filterPanel = css({
   display: 'grid',
-  gridAutoFlow: 'column',
+  gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 270px))',
   justifyContent: 'start',
-  gap: '30px',
+  gap: '20px',
 });

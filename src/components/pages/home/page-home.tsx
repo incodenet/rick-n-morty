@@ -66,7 +66,7 @@ export const PageHome = () => {
 
       setCharacters(data?.results);
     } catch (e) {
-      console.error(e);
+      console.log(e);
       setCharacters([]);
     }
   }, 300);

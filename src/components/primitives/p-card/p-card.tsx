@@ -6,7 +6,7 @@ export const PCard = (props: PCardProps) => {
   return (
     <div className={card} onClick={props.onClick}>
       <div className={image}>
-        <img src={props.itemEntity?.image} alt="" width="100%" height={230} />
+        <img src={props.itemEntity?.image} alt="" width="100%" height={170} />
       </div>
       <div className={caption}>
         <h3 className={title}>{props.itemEntity?.name}</h3>

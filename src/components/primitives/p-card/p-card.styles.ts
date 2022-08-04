@@ -47,12 +47,13 @@ export const caption = css({
 });
 
 export const image = css({
-  maxHeight: '230px',
+  maxHeight: '170px',
   overflow: 'hidden',
 });
 
 export const title = css({
-  fontSize: '1.3em',
+  fontSize: '1.1em',
+  lineHeight: '1.3',
   fontFamily: fonts.semiBold,
   margin: 0,
 });

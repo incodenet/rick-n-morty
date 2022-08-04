@@ -5,6 +5,7 @@ export const wrapper = css({
   gap: '10px',
 
   select: {
+    width: '100%',
     height: '30px',
     borderRadius: '8px',
     border: 0,
