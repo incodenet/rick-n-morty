@@ -19,7 +19,7 @@ export const useGlobalStyles = () => injectGlobal`
   }
 
   body {
-	font-family: 'Roboto Regular';
+	font-family: ${fonts.regular};
   }
 
   body, html, #root {
