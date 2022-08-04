@@ -42,3 +42,8 @@ export type Location = {
   url?: string;
   created?: string;
 };
+
+export type SelectOption = {
+  name?: string;
+  value?: string;
+};

@@ -26,7 +26,7 @@ export const show = css({
 });
 
 export const content = css({
-  padding: '30px 20px',
+  padding: '38px 20px 30px',
   backgroundColor: 'white',
   maxWidth: '560px',
   width: '100%',
