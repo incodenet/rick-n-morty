@@ -1,4 +1,4 @@
-import {useGlobalStyles} from '../../../assets/css';
+import {useGlobalStyles} from '../../../hooks';
 import {PageHome} from '../../pages/home';
 import {PFooter} from '../../primitives/p-footer';
 import {PHeader} from '../../primitives/p-header';

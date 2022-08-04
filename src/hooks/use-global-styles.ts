@@ -1,5 +1,5 @@
-import { injectGlobal } from '@emotion/css';
-import { fonts } from './theme';
+import {injectGlobal} from '@emotion/css';
+import {fonts} from '../assets/css/theme';
 
 export const useGlobalStyles = () => injectGlobal`
   @font-face {
